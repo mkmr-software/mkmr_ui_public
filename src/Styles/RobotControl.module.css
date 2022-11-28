@@ -1,0 +1,70 @@
+
+
+.buttons:hover{
+   background-color: rgb(1, 96, 219);
+}
+
+.controlContainer{
+    /* width: 72%; */
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.inputRadioButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    height: 50px;
+}
+
+.wasdButtons{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wasd{
+    width: 60px;
+    height: 50px;
+    background-color: var(--firstColor);
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.wasd:hover{
+    border: 1px solid yellow;
+}
+.wasd:first-child{
+    margin:0 70px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wasd:nth-child(2){
+    margin-top:10px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.wasd:nth-child(3){
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.wasd:nth-child(4){
+    margin-top:10px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+

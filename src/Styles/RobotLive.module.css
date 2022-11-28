@@ -1,0 +1,41 @@
+.liveMapContainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #1a1b1c;
+}
+.liveMapContainer *{
+    height: 100%;
+    width: 100%;
+}
+.gpsContainer{
+    width: min-content;
+    height: min-content;
+    position: absolute;
+    left: 92%;
+    bottom: 0%;
+    top: 80%;
+}
+.zoomInOut{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #dee5eb;
+    height: 57px;
+    width: 39px;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+    border-radius: 8px;
+}
+.gpsIcon{
+    background-color: #dee5eb;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+    display: block;
+    height: 46px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #263238;
+    -webkit-transition: background-color .16s ease-out;
+    transition: background-color .16s ease-out;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+.mkmrContainer{
+    font-family: 'Quicksand', sans-serif!important;
+     flex-grow: 1;
+     padding: 30px 10px 10px 30px;
+     height: 100%;
+     overflow-y: auto;
+     overflow-x: hidden;
+    --firstColor: #317FFB;
+    --secondColor: #d38d25;
+    --redColor: #da5534;
+    --greenColor: #33C43D;
+    --purpleColor: #670b74;
+    --componentFirstColor: #000;
+    --componentSecondColor:#1D1D1D;
+    --componentThirdColor:#151515;
+    --textColor: #fff;
+    --textColorTwo:#979797;
+    --buttonBackColor:#A0A0A0;
+    --buttonNextColor:#33C43D;
+    --firstTextSize: 1.4rem;
+    --secondTextSize: 1.2rem;
+    --buttonTextSize: 1.1rem;
+    --ledLabelTextSize: 2rem;
+}
+
+.mkmrContainer *{
+    font-family: inherit;
+}
